@@ -1,0 +1,91 @@
+##find reminder value of the expression a by b
+a=10
+b=5
+c=a%b
+print(c)
+#find reminder,quiotient and true division of the expression a by b.
+a=10
+b=5
+c=a%b
+d=a//b
+e=a/b
+print(c)
+print(d)
+print(e)
+#find product and sum of digits of a two digit number
+a=5
+b=10
+c=a%b
+d=a//b
+e=c+d
+f=c*d
+#print digits of the given 3 digit number
+a=int(input("enter number:"))
+b=a%10
+c=a//10
+d=c%10
+e=c//10
+print(b)
+print(d)
+print(e)
+#print the reverse number
+a=int(input("enter number:"))
+b=a%10
+c=a//10
+d=c%10
+e=c//10
+f=b*100+d*10+e
+print(e)
+#print paliandrome or not
+a=int(input("enter a:"))
+b=a%10
+c=//10
+d=c%10
+e=c//10
+f=b*100+d*10+e
+if a==f:
+print("paliangrome")
+  else:
+print("not a palindrome")
+#given the number single digit or not
+  a=int(input("enter the number:"))
+  if a>0 and a<9:
+print("is  a single digit")
+else:
+print("not a single digit")
+#print the single or double or trible number
+a=int(input("enter the number:"))
+if a>0 and a<9:
+print("is the single digit")
+elif a>9 and a<99:
+print("is the double number")
+else:
+print("three digit")
+# given chracter upper or not
+a=str(input("enter the string:"))
+if a>='A' and a>='Z':
+print("this is uppercase")
+  else:
+print("this is lowercase")
+#print digit or not
+a=int(input('enter the number:"))
+if a>=1 and a>=9:
+  print("it is  digit")
+  else:
+  print("not  digit")
+  #given character upper,lower,digit,specialcharcter
+  a=input("enter the value:"))
+  if a<='A' and a>='Z':
+   print("it is a upper")
+  elif a<='a' and a>='z':
+print("is a lower")
+  elif a<='0' and a>='9':
+print('is the digit")
+  else:
+  print("is the special character")
+  # prinit the char vowle or not
+  z=str(input("enter the value:"))
+  if z in 'a' or 'e' or 'i' or 'o' or 'u':
+  print("is the vowle")
+  else:
+  print("not  vowles")
