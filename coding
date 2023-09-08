@@ -89,3 +89,95 @@ print('is the digit")
   print("is the vowle")
   else:
   print("not  vowles")
+#given integer even or not using implicit check
+a=int(input("enter the value:"))
+b=a%4
+if a:
+print("is the even")
+else:
+print("is not even number")
+#given year  is leap year or not using implicit check
+year=int(input("enter the year"))
+b=a%4
+if b==0:
+print("is the leap year")
+else:
+print("is not leap year")
+#biggest of two numbers using termory expression
+a=int(input("enter the a value"))
+b=int(input("enter the b value"))
+c=a if a>b else b 
+print(c,"is large number")
+#smallest of two numbers using termory expression
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+c= a if a<b else b
+print(c,"is the samllest")
+#biggest of three numbers
+#biggest of three numbers using nested termory expression
+a=int(input("enter a value:"))
+b=int(input("enter the b value:"))
+c=int(input("enter the c value:"))
+d=(a if a>c else c) if a>b else (b if b>c else c)
+print("is the larger number")
+#smallest of three numbers using nested termory expression
+a=int(input("enter the a value:"))
+b=int(input("enter b value:"))
+c=int(input("enter c valu:"))
+d=(a if a<c else c) if a<b else(b if b<c else b)
+print(d,"is the sammlest number")
+#print unicode of given char
+str=input('enter the string:")
+u=ord(str)
+print(u)
+#given char is upper or not using unicode
+cha=input("enter value:")
+u=ord(cha)
+if u>=65 and u<=95:
+print("is the upper char")
+else:
+print("is the lower case char")
+#given char is lower or not using unicode
+char=input("enter the cha:")
+u=ord(char)
+if u>=97 and u<=122:
+print("is loer char")
+else:
+print("is not lower char")
+#given char is digit or not using unicode
+
+a=input("enter char:")
+x=ord(a)
+if x>=48 and x<=57:
+    print(a,'is digit')
+else:
+    print(a,'is not digit')
+#given char is upper, lower, digit or special character using unicode
+value=input("enter the value:")
+u=ord(value)
+if u>=65 and u<=95:
+print(u,"is the upper char")
+elif u>=97 and u<=122:
+print(u,"is the lower case")
+elif if u>=48 and u<=57:
+print(u,"is the didgit")
+else:
+print(u,"is the spl char")
+#print character of given unicode
+value=input(:enter the value")
+char=chr(value)
+print(char)
+#convert upper to lower case
+a=input("enter the value:")
+c=ord(a)
+if c>=65 and c<=97:
+    b=c+32
+    d=chr(b)
+    print(d)
+#convert lower to upper case
+a=input("enter the value:")
+b=ord(a)
+if b>=97 and b<=122:
+  c=b-32
+  d=chr(c)
+  print(d)
