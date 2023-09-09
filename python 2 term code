@@ -1,1 +1,98 @@
 
+#print the numbers 1 to 100
+i=1
+while i<=100:
+print(i)
+i+=1
+#print the numbers 100,120,140...,500
+i=100
+while i<=500:
+print(i)
+i+=20
+#print the numbers 500,450,400,...,0
+i=500
+while i>=0:
+print(i)
+i-=50
+#print the numbers 1 to 100 that is even or not
+i=1
+while i<=100:
+if i%2==0:
+print(i,"is even number")
+else:
+print(i,"is not even number")
+i+=1
+#print the numbers 1000 to 3000 that is leap year or not
+i=1000
+while i<=3000:
+if i%4==0:
+print(i,"is a leap year")
+else:
+print(i,"is not a leap year")
+i+=1
+#count the number of even numbers b/w two limits
+a=int(input("enter value1:"))
+b=int(input("enter value2:"))
+c=0
+while a<=b:
+if a%2==0:
+c+=1
+a+=1
+print(c)
+#read and display the number other than 1000
+i=int(input("enter value:"))
+while i!=1000:
+print(i,"is the 1000")
+i+=1
+i=int(input("enter value"))
+#read and display the number other than 1000 and find the sum
+a=int(input("enter a:"))
+c=0
+while a!=1000:
+    c=c+a
+    a=int(input('enter a:'))
+print(c
+#read the numbers other than 1000 find the biggest number
+a=int(input("enter a:"))
+c=0
+while a!=1000:
+    if a>c:
+        c=a
+    a=int(input("enter a:"))
+print(c)
+#read the numbers other than 1000 is the number positive, negative or zero
+a=int(input("enter the value":))
+while a!-1000:
+if a>0:
+print(a,"is the positive number")
+elif a=0:
+print(a,"is the zero")
+else:
+print(a,"is the negative number")
+#read the numebr other than 1000. count the number of positive, negative, and zero
+a=int(input("enter the value"))
+p=0
+q=0
+z=0
+while a!=1000:
+    if a>0:
+        p=p+1
+    elif a==0:
+        q=q+1
+    else:
+        z=z+1
+    a=int(input("enter the value"))
+print(p)
+print(q)
+print(z)
+#read and display 10 numbers
+c=1
+while c>=10:
+print(c)
+c+=1
+
+
+
+
+
+    
