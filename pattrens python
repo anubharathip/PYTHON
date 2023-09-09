@@ -1,0 +1,4 @@
+#print the star patter ******
+i=1
+for x in range(i,6):
+    print("*",end='')
